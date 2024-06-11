@@ -5,8 +5,8 @@
     "require": {
         "hammerstone/sidecar": "^0.6.1",
         "inertiajs/inertia-laravel": "^1.2",
-        "php": "^8.0",
-        "illuminate/support": "^9|^10"
+        "php": "^8.2",
+        "illuminate/support": "*"
     },
     "require-dev": {
         "orchestra/testbench": "^7.15|^8.0",
