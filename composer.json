@@ -1,5 +1,5 @@
 {
-    "name": "robertboes/sidecar-inertia-vite",
+    "name": "vijaythecoder/sidecar-inertia-vite",
     "description": "A Sidecar function to run Inertia server-side rendering with Vite on Lambda.",
     "type": "library",
     "require": {
