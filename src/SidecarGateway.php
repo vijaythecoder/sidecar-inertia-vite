@@ -41,7 +41,7 @@ class SidecarGateway implements Gateway
             throw new Exception('The configured Sidecar SSR Handler is not a Sidecar function.');
         }
 
-        $result = $handler::execute($page)->throw();
+        $result = $handler::execute($page)->throw(1);
 
         if (Config::get('sidecar-inertia-vite.timings')) {
             Log::info('Sending SSR request to Lambda', $result->report());
